@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mid.css" />
+    <link rel="stylesheet" href="playScreen.css" />
+    <link rel="stylesheet" href="mobile.css"/>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="title">
+            S<span class="highlight">arat </span>
+            S<span class="highlight">asank </span>
+        </div>
+        <ul class="menu">
+            <li> <a href="#">HOME</a> </li>
+            <li> <a href="#">ABOUT</a> </li>
+            <li> <a href="#">GALLERY</a> </li>
+            <li> <a href="#">ASKME</a> </li>
+            <li> <a href="#">CONTACT</a> </li>
+
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="hero">
+            <ul class="sidebar">
+                <li class="cards" onclick="cardFunction()">
+                    <div class="content">
+                        <p class="place">COLORADO</p>
+                        <p class="desc"></p>
+                    </div>
+                    <div class="image"></div>
+                </li>
+                <li class="cards" onclick="cardFunction()">
+                    <div class="content">
+                        <p class="place">WASHINGTON DC</p>
+                        <p class="desc"></p>
+                    </div>
+                    <div class="image" style="background: url('images/DC.jpg') center center/ cover no-repeat ;"></div>
+                </li>
+                <li class="cards" onclick="cardFunction()">
+                    <div class="content">
+                        <p class="place">CHICAGO</p>
+                        <p class="desc"></p>
+                    </div>
+                    <div class="image" style="background: url('images/chicago.jpg') center center/ cover no-repeat ;">
+                    </div>
+                </li>
+                <li class="cards" onclick="cardFunction()">
+                    <div class="content">
+                        <p class="place">TEXAS</p>
+                        <p class="desc"></p>
+                    </div>
+                    <div class="image" style="background: url('images/Texas.jpg') center center/ cover no-repeat ;">
+                    </div>
+                </li>
+                <li class="cards" onclick="cardFunction()">
+                    <div class="content">
+                        <p class="place">NEWYORK CITY</p>
+                        <p class="desc"></p>
+                    </div>
+                    <div class="image" style="background: url('images/NYC_Top.jpg') center center/ cover no-repeat ;">
+                    </div>
+                </li>
+                <li class="cards" onclick="cardFunction()">
+                    <div class="content">
+                        <p class="place">ORLANDO</p>
+                        <p class="desc"></p>
+                    </div>
+                    <div class="image" style="background: url('images/orlando.jpg') center center/ cover no-repeat ;">
+                    </div>
+                </li>
+                <li onclick="createCard()"><button class="addmore">ADD MORE</button>
+                </li>
+
+            </ul>
+            <button class="arrow" onclick="menuAppear(event)"></button>
+            <div class="playSpace">
+                <div class="screen_desc">BEST OF EXPEDITIONS</div>
+                <div class="screen">
+                    <div class="bul_slider">
+                        <div class="ad1" id="ad">
+                            <h1 id="txt">COLARADO <span> MOUNTAINS </span></h1>
+                        </div>
+                        <div class="ad2">
+                            <img src="images/SS_gold.png" />
+                        </div>
+                        <video id="slider" autoplay muted loop>
+                            <source src="images/mountains_-_91545 (720p).mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="nav">
+                        <a href="#" onclick="videourl('video/Y22.mp4'); texting('Retrospection Year22')"></a>
+                        <a href="#" onclick="videourl('images/Rockies.mp4'); texting('ROCKIES')"></a>
+                        <a href="#" onclick="videourl('images/JM.mp4'); texting('JEFFERSON MEMORIAL')"></a>
+                        <a href="#" onclick="videourl('images/Willis.mp4'); texting('WILLIS TOWER')"></a>
+                        <a href="#" onclick="videourl('images/Sunset.mp4'); texting('SUNSET DALLAS')"></a>
+                        <a href="#" onclick="videourl('images/NYC.mp4'); texting('EMPIRE STATE')"></a>
+                        <a href="#" onclick="videourl('images/Orlando.mp4');texting('UNIVERSAL STUDIOS')"></a>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="about sections">
+            <div class="sec_content">
+                <span class="sec_title">ABOUT</span><br>
+                Embarking on an expedition, whether into the depths of nature or the uncharted territories of personal
+                growth, has an uncanny ability to reshape one's perspective. Each step taken, every obstacle overcome,
+                reveals a tapestry of beauty woven into the fabric of existence. As I traversed rugged landscapes and
+                weathered the storms of self-discovery, I found my senses heightened to the intricate wonders
+                surrounding me. The grandeur of towering mountains mirrored the vastness of human potential, while the
+                serenity of a babbling brook whispered secrets of simplicity and peace. Through the lens of exploration,
+                I learned to cherish the subtle nuances of life — the gentle caress of a breeze, the fleeting dance of
+                sunlight on leaves — recognizing them as the threads that bind the tapestry together. Every sunrise
+                became a symphony of colors, every encounter a chance to connect with the soul of the world. In the
+                quiet moments of reflection, I realized that beauty isn't confined to majestic landscapes; it resides in
+                the tender embrace of loved ones, the laughter of children, and the kindness of strangers. The
+                expedition not only opened my eyes to the splendor of the world but also cultivated within me a deep
+                sense of gratitude for the small yet profound moments that make life truly extraordinary.
+            </div>
+            <div class="about_cards">
+                <div class="ac ac1"></div>
+                <div class="ac ac2"></div>
+                <div class="ac ac3"></div>
+            </div>
+        </div>
+        <div class="gallery sections">
+            <span class="sec_title">WINDOW <br> SNEAK PEAK </span>
+            
+            <div class="parallax">
+                <div class="parallax-1">
+                    <div class="parallax_inner">
+                        
+                    </div>
+                </div>
+               
+                
+                
+            </div>
+        </div>
+        <div class="askme sections">
+            <span class="sec_title">ASK ME</span>
+            <div class="searchbar">
+                <input class="search" type="text" placeholder="Enter Your Query" >
+                <button class="submit" type="submit" onclick="submitQuery(event)"></button>
+            </div>
+            <p class="feedback"></p>
+        </div>
+        <div class="contact sections">
+            <div class="sec_title">
+                CONTACT
+            </div>
+            <div class="sec_content">
+                <div class="icon" style="background: url('images/fb.png') center center / cover no-repeat;"><span class="link">https://www.facebook.com</span></div>
+                <div class="icon" style="background: url('images/instagram.png') center center / cover no-repeat;"><span class="link">https://www.instagram.com</span></div>
+                <div class="icon" style="background: url('images/twitter.png') center center / cover no-repeat;"><span class="link">https://twitter.com</span></div>
+                <div class="icon" style="background: url('images/phone.png') center center / cover no-repeat;"><span class="link">+1(987)6543210</span></div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="footer"> &copy Sarat Sasank's Travel Diary</div>
+
+    <script src="mid.js"></script>
+</body>
+
+</html>
