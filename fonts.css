@@ -1,0 +1,9 @@
+@font-face {
+    font-family: ephesis; /* Name you want to give to your font */
+    src: url('fonts/Ephesis-Regular.ttf'); /* Path to your font file */
+  }
+  
+
+  .header .title .subtitle{
+    font-family: "ephesis";
+  }
