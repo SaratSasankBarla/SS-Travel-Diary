@@ -80,10 +80,12 @@
 
 .ad2{
     position: absolute;
-    max-width: 50px;
+    height: 50px;
+    width: 70px;
     left: 85%;
     top: 10%;
     color: white;
+    background: url('media/images/SS_gold.png') center center / cover no-repeat;
     animation: slideleft 1s ease-in-out; 
 }
 
